@@ -56,8 +56,14 @@ class AllCommand {
       if (command.contains('muchas')) {
         return 'De nada 🤗🤓';
       }
+      if (command.contains('how')) {
+        return 'Fine, thank you🤗';
+      }
       if (command.contains('thank')) {
         return 'You are welcome 🤗';
+      }
+      if (command.contains('welcome')) {
+        return '🤗🤗🤗🤗';
       }
       return 'Sorry, command is unfamilair';
     }
